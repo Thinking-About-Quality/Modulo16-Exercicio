@@ -26,5 +26,11 @@ class formPage{
     async textOk(){
         this.campoText.getText()
     }
+    get validatorText(){
+        return $('id:alertTitle')
+    }
+    async textactive(){
+        this.validatorText.textactive()
+    }
 }
 module.exports = new formPage()
